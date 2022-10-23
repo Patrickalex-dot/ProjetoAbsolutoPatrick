@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absoluto</title>
+    <script src="cadastrarcliente.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="Cadastro/cadastroCliente.js"></script> -->
+<body>
+    <section class="main">
+        <header>
+            <div id="logo" class="col-sm-8">
+                <h1><a>Absoluto<span>Gás</span></a></h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="inicial.html">Inicio</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="recarga.html">Recarga Gás</a></li>
+                <li><a href="cadastroCliente1.html">Cadastre-se</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </header>
+        
+        
+        <div class="container">
+            <form id="form" class="row">
+                <h1 class="col-12">Cadastro de Cliente</h1>
+                <div class="col-6">
+                    <label for="nomeCompleto">Nome Completo</label>
+                    <input type="text" name="nomeCompleto" placeholder="Digite aqui" id="nomeCompleto">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            
+                <div class="col-2">
+                    <label for="numero">telefone</label>
+                    <input type="text" name="numero" id="telefone" placeholder="telefone">
+                </div>
+                <div class="col-5">
+                    <label for="tipo">Tipo</label>
+                    <input type="text" name="tipoContato" id="tipoContato" placeholder="Whatsapp / Residencial / Comercial">
+                    <!-- <select name="tipo" id="tipo" >
+                        <option value="1" selected>Whatsapp</option>
+                        <option value="2">Residencial</option>
+                        <option value="3">Comercial</option>
+                    </select> -->
+                </div>
+                <div class="col-6">
+                    <label for="nascimento">Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento" placeholder="00/00/0000">
+                    <i class="fa-solid fa-calendar"></i>
+                </div>
+                <div class="col-6">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+                    <i class="fa-solid fa-address-card"></i>
+                </div>
+                
+                <div class="col-12" id="areaEndereco">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="rua" id="rua" placeholder="rua" value="">
+                    <br>
+                    <br>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" placeholder="Digite aqui" id="cidade">
+                    <i class="fa-solid fa-envelope"></i>
+                    <br>
+                    <br>
+                    <label for="numero">Numero</label>
+                    <input type="text" name="numero" id="numero" placeholder="Digite aqui" value="">
+                    <br>
+                    <br>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" placeholder="Digite aqui" id="bairro">
+                    <i class="fa-solid fa-envelope"></i>
+                    <br>
+                    <br>
+                    <label for="complemento">Complemento</label>
+                    <textarea id="complemento" name="complemento"></textarea>
+                </div>
+                <div class="col-4">
+                    <input type="button" onclick="CapturarDadosPessoa()" value="Salvar cadastro">
+                </div>
+                
+            </form>
+        </div>
+
+
+        <!--inicio do footer-->
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        </ion-icon>
+                    </a></li>
+            </ul>
+         
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="src/cadastrar.js"></script>
+</head>
+
+</html>

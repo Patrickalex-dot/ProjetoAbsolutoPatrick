@@ -1,0 +1,64 @@
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.csproj.AssemblyReference.cache
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.AssemblyInfoInputs.cache
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.AssemblyInfo.cs
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.csproj.CoreCompileInputs.cache
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.exe
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.deps.json
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.runtimeconfig.json
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.runtimeconfig.dev.json
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.pdb
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\Slapper.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\SQLConnection.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\staticwebassets\AbsolutoGas.StaticWebAssets.Manifest.cache
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.RazorTargetAssemblyInfo.cache
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.csproj.CopyComplete
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.dll
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.pdb
+C:\Users\palex\OneDrive\Área de Trabalho\back end projeto\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.genruntimeconfig.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.exe
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.deps.json
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.runtimeconfig.json
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.runtimeconfig.dev.json
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\AbsolutoGas.pdb
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\Slapper.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\SQLConnection.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.csproj.AssemblyReference.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.AssemblyInfoInputs.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.AssemblyInfo.cs
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.csproj.CoreCompileInputs.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\staticwebassets\AbsolutoGas.StaticWebAssets.Manifest.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.RazorTargetAssemblyInfo.cache
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.csproj.CopyComplete
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.dll
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.pdb
+C:\Users\palex\OneDrive\Área de Trabalho\AbsolutoGas\Back end\AbsolutoGas\obj\Debug\netcoreapp3.1\AbsolutoGas.genruntimeconfig.cache

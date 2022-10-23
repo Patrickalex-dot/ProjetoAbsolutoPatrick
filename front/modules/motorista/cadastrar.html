@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absoluto</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="Cadastro/cadastroCliente.js"></script> -->
+<body>
+    <section class="main">
+        <header>
+            <div id="logo" class="col-sm-8">
+                <h1><a>Absoluto<span>Gás</span></a></h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="inicial.html">Inicio</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="recarga.html">Recarga Gás</a></li>
+                <li><a href="cadastroCliente1.html">Cadastre-se</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </header>
+        
+        
+        <div class="container">
+            <form id="form" class="row">
+                <h1 class="col-1">Cadastro do motorista</h1>
+                <div class="col-2">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Digite aqui" id="nome">
+                    
+                </div>
+                <div class="col-3">
+                    <label for="cnh">cnh</label>
+                    <input type="text" name="cnh" placeholder="Digite aqui" id="cnh">
+                </div>
+                <div class="col-4">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" placeholder="Digite aqui" id="telefone">
+                </div>
+                <div class="col-4">
+                    <label for="placa">placa do veiculo</label>
+                    <input type="text" name="placa" placeholder="Digite aqui" id="placa">
+                </div>
+                <div class="col-5">
+                    <input type="button" onclick="SalvarMotorista()" value="Salvar produto">
+                </div>
+                
+                
+            </form>
+        </div>
+
+
+        <!--inicio do footer-->
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        </ion-icon>
+                    </a></li>
+            </ul>
+         
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="src/cadastrar.js"></script>
+</head>
+
+</html>
