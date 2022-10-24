@@ -3,9 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <title>Listagem de motorista</title>
-    
-</head>
-<body>    
+    <link rel="stylesheet" href="../motorista/css/style.css">  
+<body> 
+    <section class="main"> 
+        <header>
+            <div id="logo" class="col-sm-8">
+                <h1><a>Absoluto<span>Gás</span></a></h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="inicial.html">Inicio</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="recarga.html">Recarga Gás</a></li>
+                <li><a href="cadastroCliente1.html">Cadastre-se</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </header>   
     <div class="container">
         <!-- <div class="input-group mb-3" id="filtros">        
             <input type="text" class="form-control" id="texto-busca" placeholder="Insira um texto para buscar" oninput="ListarPorCriterio(this)"/>
@@ -14,16 +26,16 @@
             <thead>
                 <tr>                
                     <th>
-                    nome
+                    Nome
                     </th>
                     <th>
-                    cnh
+                    Cnh
                     </th>  
                     <th>
-                    telefone
+                    Telefone
                     </th>
                     <th>
-                    placa do veiculo
+                    Placa do veiculo
                     </th>                    
                 </tr>
             </thead>
@@ -34,9 +46,11 @@
             <input type="button" class="btn btn-primary col-4" value="Voltar" onclick="Voltar()"/>
         </div>
     </div>
+    </section>
 </body>
 <script src="src/listar.js"></script>
 <!-- <link rel="stylesheet" href="app/stylesheet/global.css">
 <link rel="stylesheet" href="app/stylesheet/pessoa/listarPessoa.css"> -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+</head>
 </html>
