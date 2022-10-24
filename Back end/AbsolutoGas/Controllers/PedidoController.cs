@@ -23,16 +23,16 @@ namespace AbsolutoGas.Controllers
         {
             var resultado = repositorioPedido.SalvarPedido(salvarpedidomodel.Pedido);
 
-            if (resultado) return Ok("Pedido Salvo Com Sucesso");
-
-            return Ok("Não foi possível salvar esse Pedido");
+            if (resultado!= null) return Ok(new JsonResult(new { sucesso = true, resultado, mensagem = "Pedido Salvo Com Sucesso" }));
+            
+            return Ok(new JsonResult(new { sucesso = false, mensagem = "Houve um problema ao salvar o pedido." }));
         }
 
         [HttpPut]  // ATUALIZAR PEDIDO POR ID VIA REQUEST
         public IActionResult Atualizar2(AtualizarPedidoModel pedido)
         {
-            var aEncontrado = repositorioPedido.Atualizar(pedido.IdEncontrar, pedido.Atualizar);
-            return Ok(aEncontrado);
+            var aEncontrado = repositorioPedido.Atualizar(pedido.Atualizar);
+            return Ok(new JsonResult(new { sucesso = true, resultado = aEncontrado, mensagem = "Pedido atualizado com sucesso." }));
         }
 
         [HttpPost]  // CADASTRAR PEDIDO VIA CONSOLE
@@ -54,17 +54,28 @@ namespace AbsolutoGas.Controllers
             if (pedido == null || !pedido.Any())
                 return NotFound(new { mensage = $"Lista vazia." });
 
-            return Ok(pedido);
+            return Ok(new JsonResult(new { sucesso = true, resultado = pedido }));
 
         }
-
-
-        [HttpPut]  // ATUALIZAR PEDIDO POR ID VIA CONSOLE
-        public IActionResult Atualizar(AtualizarPedidoModel pedido)
+        [HttpGet]  // MOSTRAR LISTA DE PEDIDO VIA CONSOLE
+        public IActionResult BuscarPorId(int id)
         {
-            var aEncontrado = repositorioPedido.Atualizar(pedido.IdEncontrar, pedido.Atualizar);
-            return Ok(aEncontrado);
+            var pedido = repositorioPedido.BuscarPorId(id);
+
+            if (pedido == null)
+                return NotFound(new { mensage = $"Lista vazia." });
+
+            return Ok(new JsonResult(new { sucesso = true, resultado = pedido }));
+
         }
+
+
+        //[HttpPut]  // ATUALIZAR PEDIDO POR ID VIA CONSOLE
+        //public IActionResult Atualizar(AtualizarPedidoModel pedido)
+        //{
+        //    var aEncontrado = repositorioPedido.Atualizar(pedido.IdEncontrar, pedido.Atualizar);
+        //    return Ok(aEncontrado);
+        //}
 
         [HttpDelete]  // DELETAR PEDIDO POR ID VIA CONSOLE
         public IActionResult Remover(int idPedido)
@@ -76,7 +87,7 @@ namespace AbsolutoGas.Controllers
 
             repositorioPedido.Remover(pEncontrado);
 
-            return Ok();
+            return Ok(new JsonResult(new { sucesso = true, mensagem = "Pedido removido com sucesso." }));
         }
     }
 }

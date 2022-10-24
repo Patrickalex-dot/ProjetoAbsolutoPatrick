@@ -7,8 +7,7 @@ using AbsolutoGas.Models;
 namespace AbsolutoGas.ViewModels
 {
     public class AtualizarPedidoModel
-    {
-        public int IdEncontrar { get; set; }
+    {       
         public Pedido Atualizar { get; set; }
     }
 }
