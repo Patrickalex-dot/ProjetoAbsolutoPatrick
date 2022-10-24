@@ -3,9 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <title>Listagem de pedidos</title>
-    
-</head>
-<body>    
+    <link rel="stylesheet" href="../pedido/css/style.css">  
+
+<body> 
+    <section class="main"> 
+        <header>
+            <div id="logo" class="col-sm-8">
+                <h1><a>Absoluto<span>Gás</span></a></h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="inicial.html">Inicio</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="recarga.html">Recarga Gás</a></li>
+                <li><a href="cadastroCliente1.html">Cadastre-se</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </header>   
     <div class="container">
         <table class="table table-bordered">  
             <thead>
@@ -13,27 +26,43 @@
                     <th>
                     Cliente
                     </th>
+                    <th></th>
+                    <th></th>
                     <th>
                     Produto
-                    </th>                     
+                    </th> 
+                    <th></th>
+                    <th></th>                    
                     <th>
                     Motorista
-                    </th>  
+                    </th>
+                    <th></th>
+                    <th></th>  
                     <th>
                     Veiculo
                     </th>
+                    <th></th>
+                    <th></th>
                     <th>
                     Situação
                     </th>
+                    <th></th>
+                    <th></th>
                     <th>
                     Data/hora entrega
                     </th>
+                    <th></th>
+                    <th></th>
                     <th>
                     Valor Total
                     </th>
+                    <th></th>
+                    <th></th>
                     <th>
                     Tipo Pagamento
-                    </th>          
+                    </th> 
+                    <th></th>
+                    <th></th>         
                 </tr>
             </thead>
             <tbody id="listagem-pedidos">                
@@ -43,7 +72,8 @@
             <input type="button" class="btn btn-primary col-4" value="Voltar" onclick="Voltar()"/>
         </div>
     </div>
+    </section>
 </body>
 <script src="src/listar.js"></script>
-
+</head>
 </html>
