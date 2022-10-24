@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absoluto</title>
+    <link rel="stylesheet" href="styles.css">
+    
+<body>
+    <section class="main">
+        <header>
+            <div id="logo" class="col-sm-8">
+                <h1><a>Absoluto<span>Gás</span></a></h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="inicial.html">Inicio</a></li>
+                <li><a href="cadastroCliente1.html">Cadastre-se</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </header>
+        
+        
+        <div class="container">
+            <form id="form" class="row">
+                <h1 class="col-12">Edição de Pedido</h1>
+                <input type="hidden" id="id-pedido" />
+                <div class="col-6">
+                    <select name="idCliente" id="listagem-clientes">
+                        <option selected>Selecione o Cliente</option>
+                    </select>
+                </div>
+            
+                <div class="col-2">
+                    <select name="idProduto" id="listagem-produtos">
+                        <option selected>Selecione o Produto</option>
+                    </select>
+                </div>
+                <div class="col-5">
+                    <select name="idMotorista" id="listagem-motoristas">
+                        <option selected>Selecione o Motorista</option>
+                    </select>                    
+                </div>
+                <div class="col-6">
+                    <select name="Situacao" id="situacao">
+                        <option >Selecione o status do pedido</option>
+                        <option value="1">Buscando Motorista</option>
+                        <option value="2">Motorista a caminho</option>
+                        <option value="3">Pedido entregue com exito</option>
+                    </select>
+                </div>
+                <div class="col-7">
+                    <label for="data-hora-entrega">Data e hora da entrega</label>
+                    <input type="datetime-local" name="DataHoraEntrega" id="data-hora-entrega">
+                </div>
+                <div class="col-7">
+                    <input type="number" name="Valor" id="valorProduto" placeholder="Digite o valor do produto">
+                </div>
+                <div class="col-6">
+                    <select name="TipoPagamento" id="tipopagamento">
+                        <option selected>Forma de pagamento</option>
+                        <option value="1">À Vista (Débito)</option>
+                        <option value="2">À Vista (Crédito)</option>                        
+                    </select>
+                </div>
+                <div class="col-4">
+                    <input type="button" onclick="Atualizar()" value="Salvar pedido">
+                </div>                
+        <!--inicio do footer-->
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        </ion-icon>
+                    </a></li>
+            </ul>
+         
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="src/atualizar.js"></script>
+</head>
+
+</html>
